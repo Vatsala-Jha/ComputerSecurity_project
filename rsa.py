@@ -77,7 +77,10 @@ def main():
    plt.legend()
    '''
 
-   #Plotting the graph with the key lengths on the x-axis and logscale of time taken(in milliseconds) on the y-axis
+   '''
+   Plotting the graph with the key lengths on the x-axis and logscale
+   of time taken(in milliseconds) on the y-axis
+   '''
    plt.figure()
 
    plt.plot(key_lengths, key, ".-b", label="Key_generation")
