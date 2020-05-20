@@ -44,38 +44,7 @@ def main():
       end = time.time()
       dec.append(1000*(end-start))
 
-   print(key, enc, dec)
-
-   '''
-   plt.figure()
-
-   plt.subplot(221)
-   plt.plot(key_lengths, key, ".-r", label="kg")
-   plt.plot(key_lengths, enc, "*-b", label="enc")
-   plt.plot(key_lengths, dec, "o-g", label="dec")
-   plt.title("The usual")
-   plt.xlabel("Key sizes")
-   plt.ylabel("Time(in milliseconds)")
-   plt.legend()
-
-   plt.subplot(222)
-   plt.plot(key_lengths, key, ".-r", label="kg")
-   plt.plot(key_lengths, enc, "*-b", label="enc")
-   plt.plot(key_lengths, dec, "o-g", label="dec")
-   plt.yscale("log")
-   plt.xlabel("Key sizes")
-   plt.ylabel("Time(ms)")
-   plt.title("Log scale of time")
-   plt.legend()
-
-   plt.subplot(223)
-   plt.plot(key_lengths, enc, "*-b", label="enc")
-   plt.plot(key_lengths, dec, "o-g", label="dec")
-   plt.title("Encryption vs Decryption")
-   plt.xlabel("Key sizes")
-   plt.ylabel("Time(in milliseconds)")
-   plt.legend()
-   '''
+   #print(key, enc, dec)
 
    '''
    Plotting the graph with the key lengths on the x-axis and logscale
